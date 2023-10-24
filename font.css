@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(./Webfonts/fa-light-300.ttf);
+    font-weight: 300;
+ }
+
+.fal {
+    font-family: 'FontAwesome';
+    font-weight: 300;
+ }
+ 
+ .fa-chevron-double-right::before {
+    content: '\f324';
+    font-style: normal;
+    font-size: 50px;
+    color: coral;
+ }
+ 
+ .fa-chevron-double-left::before {
+    content: '\f323';
+    font-style: normal;
+    font-size: 50px;
+    color: coral;
+ }
